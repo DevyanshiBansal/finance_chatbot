@@ -31,7 +31,7 @@ def get_agent():
                 "Maintain context of past conversations and answer accordingly."
             )
         },
-        verbose=True  # optional
+        # verbose=True  # optional
     )
 
     return agent
